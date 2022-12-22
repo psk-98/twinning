@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  list-style: none;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+html,
+body {
+  background: #f5f5f5;
+}
+.next-error-h1,
+h2 {
+  color: #fff;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.btn {
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.header {
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  font-size: 20px;
+}
+.nav-text {
+  font-size: 12px;
+  cursor: pointer;
+}
+img {
+  aspect-ratio: 3/4;
+  z-index: auto;
+  object-fit: cover;
+}
+.lighter {
+  color: #7a7a7a;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.container {
+  max-width: 100%;
+  min-height: 92vh;
+  margin: 8vh 0 0 0;
+}
+.contained {
+  margin: 0 25px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 92vh;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+@media (pointer: coarse) {
+  .not-touch {
+    display: none;
+  }
+}
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
+  * {
+    color: #050505;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #050505;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+@media (min-width: 768px) {
+  * {
+    font-size: 20px;
+  }
+  .header,
+  .btn {
+    font-size: 30px;
+  }
+}
